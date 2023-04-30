@@ -164,7 +164,6 @@ body {
 
 .projeler img {
     position: absolute;
-    
     display: inline;
     width: 200px;
     left: 50px;
@@ -271,6 +270,21 @@ body {
 
 i:hover {
     color: #3a3b3b;
+
+}
+
+.projeler #lybotmobil {
+    color: transparent;
+    font-size: 20px;
+    margin-top: -80px;
+
+}
+
+#lybotmobil a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: transparent;
 }
 
 /*  tablet uyumu   */ 
@@ -319,9 +333,28 @@ i:hover {
     }
 
     #lybot {
-        display: inline-block;
-        width: 100px;
-        
+        opacity: 0;
+
+    }
+
+    #lybot a{
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+    }
+
+    .projeler #lybotmobil {
+        color: black;
+    
+    }
+    
+    #lybotmobil a {
+        pointer-events: all;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        cursor: auto;
+        text-decoration: underline;
+        color: blueviolet;
+
     }
 
     .iletisim a i{
@@ -329,22 +362,23 @@ i:hover {
     }
 
     .iletisim #dc{
-        margin-left: -410px;
+        margin-left: -400px;
     }
     .iletisim #ig {
-        margin-left: -445px;
+        margin-left: -440px;
     }
     .iletisim #twt {
         margin-left: -470px;
     }
     .iletisim #yt {
-        margin-left: -670px;
+        margin-left: -680px;
     }
     .iletisim #ghub {
-        margin-left: -430px;
+        margin-left: -445px;
     }
     .iletisim #twich {
-        margin-left: -465px;
+        margin-left: -480px;
+
     }
 
     .iletisim h3{
