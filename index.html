@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="particles.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>    
+    
+    <title>Portfolyom</title>
+
+</head>
+<body>
+
+     
+    <div id="particles__image"></div>
+    
+        <div class="component__bir">
+            <img src="pfp0.jpg">
+            <div id="alanlar">
+                <h1>
+                    Ben bir <span id="type"></span>
+                </h1>
+        </div>  
+    </div>
+    
+
+    <div class="profile" id="profile">
+            <h1 class="hakkımda__baslık">Hakkımda</h1>
+            <i class="fa-solid fa-user"></i>
+            <p id="ka">𝐸𝓎𝓂𝑒𝓃 𝐻𝒶𝓋𝒶𝓇𝒾</p> 
+            <P>Selam. Ben Eymen. 15 yaşındayım. Türkiyenin Mersin ilinde yaşamakta ve okumaktayım. Boş zamanlarımda kaykay kayarım, resim çizerim, oyun oynarım, spor yaparım veya anime izlerim.</P>
+    
+    </div>
+
+    <div class="ozgecmis" id="ozgecmis">
+        <h1 class="hakkımda__baslık">Özgeçmiş</h1>
+        <hr color="black"> 
+        <P>12 yaşımda grafik tasarıma çok ilgi duymuştum. youtubedan bakarak kendimi biraz geliştirip bir minecraft sunucusunun tasarımcısı olmuştum ve ilk kez dijital bir işe girmiştim. O benim ilk iş deneyimimdi. Kendi harçlığımı çıkartıyordum ve bu benim için çok güzel bir şeydi. 13 yaşıma geldiğimde kodlamaya bayağı ilgi duydum fakat kod yazabileceğim bir bilgisayarım yoktu. Telefondan videolar izleyip babamın bilgisayarında aynısını uygulayarak belirli bir seviyeye geldim. Daha sonra bilgisayarım oldu. Böylece kendimi geliştirme şansım çok arttı. Solo olarak kendi çapımda oyunlar yaptım fakat yayınlamadım. Çünkü ciddi olarak yayınlanabilecek durumda değillerdi. Şuan da 2 tane yayınlamaya değer oyun için uğraşıyorum. Haklarında bilgi vermeyeceğim sürprizim olsun. İlkokulumun adını hatırlamıyorum.. Adnan Menderes Ortaokulunu bitirdikten sonra Nurettin Topçu Anadolu Lisesine geçtim. Çok iyi bir şekilde eğitimime devam ediyorum</P>
+
+    </div>
+
+    <div class="projeler" id="projeler">
+
+        <h1>Projelerim</h1>
+        <hr color="black"> <br> 
+        <img src="luffyBot.png">
+        <li id="lybot"><h6>- Discord Gelişmiş ekonomi ve müzik botu. <a href="https://top.gg/bot/909125915932516352/vote">Bota oy ver</a></h6></li>
+
+    </div>
+    
+    <div class="iletisim" id="iletisim">
+        
+        <i id="wp" class="fa-brands fa-whatsapp"></i>
+        <h3>+90 (536) 717 70 04</h3>
+        <p>sponsorluk ve işbirliği için hawarryeymen@gmail.com</p>
+        <a id="dc" href="https://discord.gg/3CaBH6sedU"><i class="fa-brands fa-discord"></i></a>
+        <a id="ig" href="https://www.instagram.com/http.eymen/"><i class="fa-brands fa-instagram"></i></a>
+        <a id="twt" href="https://twitter.com/http_eymen"><i class="fa-brands fa-twitter"></i></a>
+        <a id="ghub" href="https://github.com/Masaka3366"><i class="fa-brands fa-github"></i></a>
+        <a id="twich" href="https://www.twitch.tv/eymenhawarry33"><i class="fa-brands fa-twitch"></i></a>
+        <a id="yt" href="https://www.youtube.com/@lil-clayso2459/featured"><i class="fa-brands fa-youtube"></i></a>
+
+    </div>
+
+
+<!-- 
+kullanıcı  fa-solid fa-user --- 𝐸𝓎𝓂𝑒𝓃 𝐻𝒶𝓋𝒶𝓇𝒾
+github --- fa-brands fa-github    ------ https://github.com/Masaka3366
+wp ------- fa-brands fa-whatsapp
+ig ------- fa-brands fa-instagram ------ https://www.instagram.com/http.eymen/
+dc ------- fa-brands fa-discord   ------ https://discord.gg/3CaBH6sedU  ------ https://top.gg/bot/909125915932516352/vote
+twt ------ fa-brands fa-twitter   ------ https://twitter.com/http_eymen
+twitch --- fa-brands fa-twitch    ------ https://www.twitch.tv/eymenhawarry33
+yt ------- fa-brands fa-youtube   ------ https://www.youtube.com/@lil-clayso2459/featured
+
+-->
+
+
+
+
+
+
+
+
+    <script>
+        const typed = new Typed('#type', {
+        strings: [
+                    'Grafik Tasarımcısıyım',
+                    'Web Geliştiricisiyim',
+                    'Oyun Geliştiricisiyim',
+                    'Pixel Artistim',
+                    'Freelancerım'
+                ],
+        typeSpeed: 50,
+        backSpeed: 60,
+        loop: true
+        });
+    </script>
+    
+    <script> 
+        particlesJS("particles__image", {
+        "particles": {
+            "number": {
+            "value": 200,
+            "density": {
+                "enable": true,
+                "value_area": 1000
+            }
+            },
+            "color": {
+            "value": "#ffffff"
+            },
+            "shape": {
+            "type": "triangle",
+            "stroke": {
+                "width": 0,
+                "color": "#000000"
+            },
+            "polygon": {
+                "nb_sides": 5
+            },
+            "image": {
+                "src": "img/github.svg",
+                "width": 100,
+                "height": 100
+            }
+            },
+            "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+            }
+            },
+            "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+                "enable": false,
+                "speed": 40,
+                "size_min": 0.1,
+                "sync": false
+            }
+            },
+            "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+            },
+            "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+            }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "grab"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "push"
+            },
+            "resize": true
+            },
+            "modes": {
+            "grab": {
+                "distance": 140,
+                "line_linked": {
+                "opacity": 1
+                }
+            },
+            "bubble": {
+                "distance": 400,
+                "size": 40,
+                "duration": 2,
+                "opacity": 8,
+                "speed": 3
+            },
+            "repulse": {
+                "distance": 200,
+                "duration": 0.4
+            },
+            "push": {
+                "particles_nb": 4
+            },
+            "remove": {
+                "particles_nb": 2
+            }
+            }
+        },
+        "retina_detect": true
+        });
+    </script>
+
+</body>
+</html>

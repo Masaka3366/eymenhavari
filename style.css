@@ -1,0 +1,354 @@
+* {
+    user-select: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #0066ff);
+    border-radius: 6px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #00c6ff);
+
+}
+
+#particles__image {
+    background-repeat: no-repeat;
+    width: 150%;
+    height: 150%;
+    background-image: url(bg3.png);
+    background-size: cover;
+    position: fixed;
+    background-position: 50% 50%;
+
+}
+
+#alanlar {
+    margin-top: 200px;
+    top: 500px;
+    left: 50%;
+    top: 35%;
+    position: absolute;
+    transform: translate(-50%, -35%);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#alanlar span {
+    color: rgb(63, 9, 9);
+    
+}
+
+.component__bir img {
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+
+}
+
+.profile {
+    margin-top: 500px;
+    text-align: center;
+    background-color: rgba(212, 224, 230, 0.726);
+    position: absolute;
+    width: 580px;
+    height: 230px;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    border: 5px solid black;
+    border-radius: 24px;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.profile #ka {
+    font-size: 24px;
+    display: inline; 
+
+}
+
+.profile i {
+    font-size: 24px;
+    margin-left: -20px;
+
+}
+
+.profile p {
+    text-indent: 10px;
+    word-spacing: 3px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+
+}
+
+.ozgecmis {
+    margin-top: 1000px;
+    text-align: center;
+    background-color: rgba(212, 224, 230, 0.726);
+    position: absolute;
+    width: 550px;
+    padding: 25px;
+    height: auto ;
+    left: 50%;
+    top: 50%;
+    border: 5px solid black;
+    border-radius: 24px;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.ozgecmis p {
+    text-indent: 10px;
+    word-spacing: 3px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+
+.projeler {
+    margin-top: 1500px;
+    text-align: center;
+    background-color: rgba(212, 224, 230, 0.726);
+    position: absolute;
+    width: 550px;
+    padding: 25px;
+    height: 250px ;
+    left: 50%;
+    top: 50%;
+    border: 5px solid black;
+    border-radius: 24px;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.projeler h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projeler #lybot {
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.projeler img {
+    position: absolute;
+    
+    display: inline;
+    width: 200px;
+    left: 50px;
+    
+}
+
+.iletisim {
+    margin-top: 1850px;
+    text-align: center;
+    background-color: rgba(212, 224, 230, 0.726);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+    height: 50px ;
+    left: 50%;
+    top: 50%;
+    border-top: 5px solid black;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.iletisim i {
+    font-size: 50px;
+    letter-spacing: 50px;
+
+}
+
+.iletisim i p {
+    display: inline;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+.iletisim #wp {
+    margin-left: -950px;
+}
+
+#wp {
+    color: rgb(10, 187, 10);
+    display: inline;
+
+}
+
+.iletisim h3 {
+    left: 200px;
+    display: inline;
+    position: fixed;
+    bottom: 20px;
+}
+
+.iletisim p {
+    display: inline;
+    position: absolute;
+    left: 60px;
+    bottom: -15px;
+}
+
+.iletisim #dc {
+    position: absolute;
+    left: 450px;
+    color: #020a04;
+
+
+}
+
+.iletisim #ig {
+    position: absolute;
+    left: 550px;
+    color: #020a04;
+
+}
+
+.iletisim #twt {
+    position: absolute;
+    left: 635px;
+    color: #020a04;
+
+}
+
+.iletisim #ghub {
+    position: absolute;
+    left: 725px;
+    color: #020a04;
+
+}
+
+.iletisim #twich {
+    position: absolute;
+    margin-top: 5px;
+    left: 815px;
+    color: #020a04;
+
+}
+
+.iletisim #yt {
+    position: absolute;
+    left: 900px;
+    color: #020a04;
+
+}
+
+i:hover {
+    color: #3a3b3b;
+}
+
+/*  tablet uyumu   */ 
+
+@media only screen and (max-width: 992px) {
+    
+    
+}
+
+/* cep telefonu uyumu */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        height: auto;
+    }
+
+    .component__bir #alanlar h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: -20px;
+
+    }
+
+    .profile {
+        margin-top: 400px;
+        width: 300px;
+        height: auto;
+    }
+    .ozgecmis {
+        margin-top: 1000px;
+        width: 275px;
+        height: auto;
+    }
+    .projeler {
+        margin-top: 1600px;
+        width: 275px;
+        height: 300px;
+
+    }
+
+    .projeler img {
+        width: 200px;
+        margin-left: 15px;
+        display: block;
+    }
+
+    #lybot {
+        display: inline-block;
+        width: 100px;
+        
+    }
+
+    .iletisim a i{
+        font-size: 25px;
+    }
+
+    .iletisim #dc{
+        margin-left: -410px;
+    }
+    .iletisim #ig {
+        margin-left: -445px;
+    }
+    .iletisim #twt {
+        margin-left: -470px;
+    }
+    .iletisim #yt {
+        margin-left: -670px;
+    }
+    .iletisim #ghub {
+        margin-left: -430px;
+    }
+    .iletisim #twich {
+        margin-left: -465px;
+    }
+
+    .iletisim h3{
+        color: transparent;
+        position: absolute;
+    }
+}
