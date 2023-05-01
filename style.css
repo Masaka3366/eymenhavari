@@ -298,10 +298,6 @@ i:hover {
 
 @media only screen and (max-width: 768px) {
 
-    body {
-        height: auto;
-    }
-
     .component__bir #alanlar h1 {
         text-align: center;
         font-size: 35px;
@@ -322,7 +318,8 @@ i:hover {
     .projeler {
         margin-top: 1600px;
         width: 275px;
-        height: 300px;
+        display: flexbox;
+        height: 320px;
 
     }
 
@@ -380,7 +377,6 @@ i:hover {
         margin-left: -480px;
 
     }
-
     .iletisim h3{
         color: transparent;
         position: absolute;
