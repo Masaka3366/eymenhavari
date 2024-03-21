@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(transparent, #0066ff);
+    background: linear-gradient(transparent, #1b6fee);
     border-radius: 6px;
 
 }
@@ -64,7 +64,7 @@ body {
     border-radius: 50%;
     width: 175px;
     height: 175px;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -10%);
 
@@ -76,7 +76,7 @@ body {
     background-color: rgba(212, 224, 230, 0.726);
     position: absolute;
     width: 580px;
-    height: 230px;
+    height: 175px;
     padding: 10px;
     left: 50%;
     top: 50%;
@@ -123,6 +123,14 @@ body {
     transform: translate(-50%, -50%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+#udemy {
+    text-decoration: none;
+}
+
+#itch {
+    text-decoration: none;
 }
 
 .ozgecmis p {
@@ -201,7 +209,7 @@ body {
 }
 
 .iletisim #wp {
-    margin-left: -950px;
+    margin-left: -1090px;
 }
 
 #wp {
@@ -287,12 +295,12 @@ i:hover {
     color: transparent;
 }
 
-/*  tablet uyumu   */ 
+/*  tablet uyumu
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1080px) {
     
-    
-}
+
+} */
 
 /* cep telefonu uyumu */
 
@@ -342,8 +350,7 @@ i:hover {
 
     .projeler #lybotmobil {
         color: black;
-        margin-top: -95px;
-    
+        margin-top: -5px;
     }
     
     #lybotmobil a {
